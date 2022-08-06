@@ -1,6 +1,7 @@
 :root {
     --primary-color: #d8d8d8
     --secondary-color: #1e1e1e
+    --tertiary-color: #70AFB3
 
 }
 
@@ -70,11 +71,33 @@ header nav ul li a {
 .hero-subtitle {
     padding: 5px 15px;
     margin: 0 20px 0 0;
-    background-color: rgb(29, 169, 169);
+    background-color: #70AFB3;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(92, 5, 139);
 }
+
+/* about me styling */
+
+.intro {
+    background-color: rgb(112, 170, 179);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+}
+
+.about-me-title {
+    border-style: solid;
+}
+
+.about-me-content {
+    border-style: solid;
+    margin: 20px;
+    text-align: left;
+}
+
 
 /* footer styling */
 
